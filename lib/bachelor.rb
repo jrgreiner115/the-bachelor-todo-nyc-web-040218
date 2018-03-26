@@ -62,5 +62,5 @@ def get_average_age_for_season(data, season)
     end
     end
   end
-  sum / contestant_count
+  sum.to_f / contestant_count.to_f
 end
