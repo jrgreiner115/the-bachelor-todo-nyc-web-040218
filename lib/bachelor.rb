@@ -54,5 +54,6 @@ def get_average_age_for_season(data, season)
     season_data.each do |v|
       new_array << v["age"]
     end
+    end
   end
 end
