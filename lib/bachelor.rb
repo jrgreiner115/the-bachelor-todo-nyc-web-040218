@@ -27,7 +27,8 @@ def count_contestants_by_hometown(data, hometown)
   counter = 0
   data.each do |season_data, player_data|
     player_data.each do |v|
-      v.
+      if v["hometown"] == hometown
+        
 end
 
 def get_occupation(data, hometown)
