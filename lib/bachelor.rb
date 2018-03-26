@@ -13,7 +13,8 @@ end
 
 
 def get_contestant_name(data, occupation)
-  # code here
+  data.each do |season_data, player_data|
+    player_data.each do |v|
 end
 
 def count_contestants_by_hometown(data, hometown)
