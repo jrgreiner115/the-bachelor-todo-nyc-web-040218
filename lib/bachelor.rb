@@ -6,6 +6,7 @@ def get_first_name_of_season_winner(data, season)
       if v["status"] == "Winner"
         return v["name"]
       end
+      end
     end
   end
 end
