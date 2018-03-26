@@ -53,7 +53,7 @@ def get_average_age_for_season(data, season)
   data.each do |season_1, season_data|
     if season_1 == season
     season_data.each do |v|
-      new_array << v["age"].inject 
+      new_array << v["age"].inject(:+).to_f
       end
     end
     end
